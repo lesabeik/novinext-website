@@ -1,0 +1,49 @@
+name: Extract Novinext website
+
+on:
+  push:
+    paths:
+      - 'archive/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait until all archive parts exist
+        id: check
+        shell: bash
+        run: |
+          ok=true
+          for i in 1 2 3 4 5; do
+            if [ ! -f "archive/part${i}.txt" ]; then ok=false; fi
+          done
+          echo "ready=$ok" >> "$GITHUB_OUTPUT"
+      - name: Rebuild and extract project
+        if: steps.check.outputs.ready == 'true'
+        shell: bash
+        run: |
+          cat archive/part1.txt archive/part2.txt archive/part3.txt archive/part4.txt archive/part5.txt | base64 -d > novinext-project.zip
+          unzip -t novinext-project.zip
+          rm -rf extracted
+          mkdir extracted
+          unzip -o novinext-project.zip -d extracted
+          cp -a extracted/. .
+          rm -rf extracted novinext-project.zip archive project.zip.b64
+      - name: Commit extracted website
+        if: steps.check.outputs.ready == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Import Novinext website"
+            git push
+          fi
