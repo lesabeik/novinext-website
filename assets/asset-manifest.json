@@ -1,0 +1,42 @@
+[
+  {
+    "filename": "novinext-logo.jpg",
+    "url": "https://novinext-platform-demo.lesabeik.chatgpt.site/assets/novinext-logo.jpg",
+    "used_as": "Current NOVINEXT site logo"
+  },
+  {
+    "filename": "landing-original.png",
+    "url": "https://novinext-platform-demo.lesabeik.chatgpt.site/assets/landing-original.png",
+    "used_as": "Current landing / molecular-analysis illustration"
+  },
+  {
+    "filename": "novinext-logo-wp.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/novinext-logo.png",
+    "used_as": "Additional logo asset referenced by the rendered site"
+  },
+  {
+    "filename": "molecular-analysis.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/molecular-analysis.png",
+    "used_as": "Additional molecular-analysis asset referenced by the rendered site"
+  },
+  {
+    "filename": "urine-sample-icon.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/urine-sample-icon.png",
+    "used_as": "Step 1 icon"
+  },
+  {
+    "filename": "molecular-markers-icon.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/molecular-markers-icon.png",
+    "used_as": "Step 2 icon"
+  },
+  {
+    "filename": "fluorescence-detection-icon.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/fluorescence-detection-icon.png",
+    "used_as": "Step 3 icon"
+  },
+  {
+    "filename": "analysis-icon.png",
+    "url": "https://novinext.com/wp-content/uploads/2024/01/analysis-icon.png",
+    "used_as": "Step 4 icon"
+  }
+]

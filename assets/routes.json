@@ -1,0 +1,161 @@
+{
+  "#/public": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home"
+  },
+  "#/public/technology": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "technology"
+  },
+  "#/public/need": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "need"
+  },
+  "#/public/patients": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "patients"
+  },
+  "#/public/stage": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "stage"
+  },
+  "#/public/contact": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "contact"
+  },
+  "#/public/platform": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "platform"
+  },
+  "#/public/faq": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "faq"
+  },
+  "#/public/privacy": {
+    "title": "NOVINEXT | Urine-based molecular research",
+    "kind": "home-anchor",
+    "anchor": "privacy"
+  },
+  "#/preview/patient/dashboard": {
+    "title": "NOVINEXT | Public patient dashboard preview",
+    "kind": "patient",
+    "page": "dashboard"
+  },
+  "#/preview/patient/my-tests": {
+    "title": "NOVINEXT | Public patient dashboard preview",
+    "kind": "patient",
+    "page": "tests"
+  },
+  "#/preview/patient/my-results": {
+    "title": "NOVINEXT | Public patient dashboard preview",
+    "kind": "patient",
+    "page": "results"
+  },
+  "#/preview/patient/history": {
+    "title": "NOVINEXT | Public patient dashboard preview",
+    "kind": "patient",
+    "page": "history"
+  },
+  "#/preview/patient/profile": {
+    "title": "NOVINEXT | Public patient dashboard preview",
+    "kind": "patient",
+    "page": "profile"
+  },
+  "#/preview/clinician/dashboard": {
+    "title": "NOVINEXT | Public clinician dashboard preview",
+    "kind": "clinician",
+    "page": "dashboard"
+  },
+  "#/preview/clinician/patients": {
+    "title": "NOVINEXT | Public clinician dashboard preview",
+    "kind": "clinician",
+    "page": "patients"
+  },
+  "#/preview/clinician/review-queue": {
+    "title": "NOVINEXT | Public clinician dashboard preview",
+    "kind": "clinician",
+    "page": "queue"
+  },
+  "#/preview/clinician/reports": {
+    "title": "NOVINEXT | Public clinician dashboard preview",
+    "kind": "clinician",
+    "page": "reports"
+  },
+  "#/preview/admin/overview": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "overview"
+  },
+  "#/preview/admin/users": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "users"
+  },
+  "#/preview/admin/clinicians": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "clinicians"
+  },
+  "#/preview/admin/tests-kits": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "kits"
+  },
+  "#/preview/admin/enquiries": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "enquiries"
+  },
+  "#/preview/admin/content": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "content"
+  },
+  "#/preview/admin/audit": {
+    "title": "NOVINEXT | Public admin dashboard preview",
+    "kind": "admin",
+    "page": "audit"
+  },
+  "#/login": {
+    "title": "NOVINEXT | Sign in or register",
+    "kind": "auth",
+    "page": "chooser"
+  },
+  "#/login/patient": {
+    "title": "NOVINEXT | Patient sign in",
+    "kind": "auth",
+    "page": "patient-login"
+  },
+  "#/login/clinician": {
+    "title": "NOVINEXT | Clinician sign in",
+    "kind": "auth",
+    "page": "clinician-login"
+  },
+  "#/login/admin": {
+    "title": "NOVINEXT | Admin sign in",
+    "kind": "auth",
+    "page": "admin-login"
+  },
+  "#/register": {
+    "title": "NOVINEXT | patient registration",
+    "kind": "auth",
+    "page": "patient-register"
+  },
+  "#/register/patient": {
+    "title": "NOVINEXT | patient registration",
+    "kind": "auth",
+    "page": "patient-register"
+  },
+  "#/register/clinician": {
+    "title": "NOVINEXT | clinician registration",
+    "kind": "auth",
+    "page": "clinician-register"
+  }
+}

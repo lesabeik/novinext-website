@@ -1,0 +1,32 @@
+NOVINEXT Supabase backend connection
+====================================
+Project ref: vnkmhkjdjbfjzndqjbfs
+Project URL: https://vnkmhkjdjbfjzndqjbfs.supabase.co
+Frontend key: Supabase publishable key (safe for browser use; protected by RLS)
+
+Backend created:
+- profiles
+- kits
+- submissions
+- enquiries
+- access_requests
+- Supabase Auth / passwordless email login
+- Row Level Security for patient / clinician / admin access
+
+IMPORTANT AUTH URL SETTING
+--------------------------
+In Supabase Dashboard > Authentication > URL Configuration:
+1. Set Site URL to the deployed NOVINEXT website URL.
+2. Add the same deployed URL to Redirect URLs.
+
+Magic-link sign-in uses the current deployed origin/path as emailRedirectTo.
+When index.html is opened directly via file://, email redirect is intentionally not set because browsers cannot use a file URL as an Auth redirect.
+
+FIRST ADMIN
+-----------
+For security, the frontend never contains a service_role key and does not automatically make the first registrant an admin.
+After the intended administrator has registered with an email, promote that specific account to app_role='admin' and approval_status='approved' using a trusted admin action / database operation.
+
+Images/text
+-----------
+The existing website text and image references were retained. The original image download helpers remain in this package.
